@@ -29,6 +29,9 @@ export default {
         ".regular-text": {
           "@apply text-base text-primaryBlack": {},
         },
+        ".heading-text": {
+          "@apply text-[84px] text-primaryBlack": {},
+        },
       };
       addUtilities(newUtilities);
     },
